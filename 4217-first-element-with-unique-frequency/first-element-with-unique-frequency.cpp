@@ -14,11 +14,6 @@ public:
         for (const auto& [key, value] : indexmap) {
             resmap[value].push_back(key);
         }
-        for(const auto& [key,value]: resmap){
-            cout << key << " key ";
-            cout << value.size() <<" value.size()\n";
-            //cout << value.second << " value.second\n"; 
-        }
         vector<int> res;
         for(const auto& [key,value]: resmap){
             if(resmap[key].size()==1){
