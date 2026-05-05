@@ -33,6 +33,6 @@ public:
             head = temp1;
 
         }
-        return temp1;
+        return head;
     }
 };
